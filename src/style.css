@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    /* padding:  1rem;
+    padding: 16px; */
+}
+
+
+.banner-image {
+   max-height: 100%;
+    width: 1000%;
+    height: 400px;
+    
+}
+    
+.products-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2px;
+}
+
+
+.product {
+    border: 1px solid gainsboro;
+    padding: 16px;
+    background-color: #1213;
+    border: 1px solid black;
+    position: relative;
+
+}
+
+.old-price {
+    text-decoration: line-through;
+}
+
+.sale {
+background-color: red;
+height: 30px;
+color:aliceblue;
+width: 50px;
+border-radius: 30px;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+position: absolute ;
+right: 10px;
+top: 10px;
+
+}
+.h-screen{
+    height: 100vh;
+} 
+.dark{
+    background-color: black;
+    color:white;
+}
